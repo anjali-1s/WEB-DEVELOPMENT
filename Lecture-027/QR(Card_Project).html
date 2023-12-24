@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cards</title>
+
+     <style>
+
+          *{
+               margin:0;
+               padding:0;
+               box-sizing: border-box;
+          }
+
+          .container{
+               height:100vh;
+               width:100vw;
+               /* min-height: 980px; */
+               background-color: #8EC5FC;
+               background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+               display:flex;
+               justify-content: center;
+               align-items: center;
+          }
+
+          .card{
+               height:400px;
+               width:250px;
+               background-color: white;
+               border-radius: 20px;
+
+               display:flex;
+               flex-direction: column;
+               gap:10px;
+               align-items: center;
+               padding:10px;
+          }
+
+          .card img{
+                    height:50%;
+                    border-radius: 30px;
+          }
+
+          .card h2{
+               font-size:1.2rem;
+               font-weight:bolder;
+          }
+
+          .card p{
+               font-size:1em;
+          }
+     </style>
+</head>
+<body>
+     <div class="container">
+                    <div class="card">
+                         <img
+                              src = "https://cdn.vectorstock.com/i/preview-1x/78/48/scan-me-qr-code-design-qr-code-for-payment-text-vector-43167848.jpg"
+                         />
+
+                         <h2>
+                              Improve your front end skills  by developing projects
+                         </h2>
+
+                         <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, distinctio?
+                              Lorem, ipsum dolor sit amet consectetur adipisicing.
+                         </p>
+                    </div>
+     </div>
+</body>
+</html>
